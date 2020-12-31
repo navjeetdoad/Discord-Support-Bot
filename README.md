@@ -7,3 +7,5 @@ A Discord Bot made in Python on Repl.it which detects sad messages in a channel 
 "$addmsg message" adds message to the list of possible motivational messages. <br />
 "$delmsg number" deletes the message at the index 'number' from the list of user-added messages. <br />
 "$list" displays a list of all the user added messages. <br />
+
+The bot uses UptimeRobot.com in order to keep running even when we close the program.
