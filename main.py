@@ -117,5 +117,5 @@ async def on_message(message):
     await message.channel.send("The commands are: " + "\n" + "1. '$responding-on' turns on the ability for the to respond to messages." + "\n" + "2. '$responding-off' turns off the ability for the bot to respond to messages." + "\n" + "3. '$addmsg' lets users add motivational/encouraging messages to the bot." + "\n" + "4. '$delmsg' lets users delete motivational/encouraging messages from the bot by inputting the number of the message they want to delete." + "\n" + "5. '$list' displays all the user added messages.")
 
 keep_alive()
-client.run('NzkxNDA1ODUwNDQ3MDUyODYx.X-OsIg.FNddn5wTxpp7NcQqkyyZTWRTf1M')
+client.run(os.getenv('TOKEN')) #gets our bot token from an environmental variable
 # the above command just runs our bot with the the Bot Token that we get from the Discord Developer Portal
